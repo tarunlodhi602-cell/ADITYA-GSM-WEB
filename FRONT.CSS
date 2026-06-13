@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(image\ gsm\ blue.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    height: 80vh;
+    position: absolute;
+}
+header{
+    width: 100%;
+    height: 100vh;
+}
+.nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+    z-index: 100;
+    color: white;
+    font-size: 30px;
+}
+.nav a{
+    text-decoration: none;
+    text-shadow: 3px 5px 10px black;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    right: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 7px 10px;
+}
+.nav a:hover{
+box-shadow: 2px 3px 20px rgb(255, 3, 3);
+scale: 1.2;
+border-radius: 40px;
+}
+ .one{
+  color: red; 
+  font-family: inherit;
+  position: relative;
+  left: 50px;
+  top: 10px;
+  font-size: 50px;
+  text-shadow: 5px 10px 20px rgb(255, 0, 0);}
+  .reg{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    position: relative;
+    left: 86%;
+    bottom: 35px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .log{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    position: relative;
+    left: 86%;
+    bottom: 35px;
+     cursor:pointer;
+    border-radius: 50px;
+    font-size: 16px;
+  }
+  .reg:hover,.log:hover{
+    scale: 1.1;
+    box-shadow: 3px 5px 10px red;
+  }
+  
+   .btn{
+    position: relative;
+    z-index: 1000;
+}
+  .third{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 60px;
+    height: auto;
+    color: white;
+    position: relative;
+    left: 43px;
+    top: 25px;
+    letter-spacing: 0.3rem;
+    text-transform: capitalize;
+  }
+  .highlight{
+    color: rgb(255, 166, 2);
+  }
+  .para1{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    left: 35px;
+    gap: 30px;
+    padding: 20px;
+    margin: 10px 0px;
+    word-spacing: 20px;
+    text-transform: capitalize;
+  }
+  
+  .page2{
+    font-size: 30px;
+    color: white;
+       background: url(red\ background1.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .para2{
+    font-size: 40px;
+    width: 60%;
+    padding-top: 80px;
+    position: relative;
+    left: 50px;
+}
+.page3{
+    font-size: 30px;
+    color: white;
+       background: url(red\ background\ 2.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  }
+   .para3{
+    font-size: 40px;
+    width: 60%;
+    padding-top: 80px;
+    position: relative;
+    left:68%;
+    width: 400px;
+}
+.page4{
+    font-size: 30px;
+    color: white;
+       background: url(background\ red3.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  }
+   .para4{
+    font-size: 40px;
+    width: 400px;
+    padding-top: 80px;
+    position: relative;
+    left: 40px;
+}
